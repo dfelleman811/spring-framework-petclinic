@@ -325,6 +325,8 @@
             <artifactId>jakarta.activation-api</artifactId>
             <version>${jakarta-activation.version}</version>
         </dependency>
+        
+
 
     </dependencies>
 
@@ -504,6 +506,7 @@
                     <groupId>org.hsqldb</groupId>
                     <artifactId>hsqldb</artifactId>
                     <version>${hsqldb.version}</version>
+                    <classifier>jdk17</classifier>
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
